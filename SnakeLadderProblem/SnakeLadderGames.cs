@@ -19,6 +19,10 @@ namespace SnakeLadderProblem
             Console.WriteLine("Number of Players : " + Num_of_Players);
             Console.WriteLine("Player 1 at position : " + position1);
 
+            Random random = new Random();
+            int DieNumber1 = random.Next(1, 7);
+            Console.WriteLine("Player rolled the Die ....");
+            Console.WriteLine("Dies turns to : " + DieNumber1);
         }
     }
 }
